@@ -13,4 +13,16 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+#Regular Expressions prefunctions
+    message = 'Call me at 415-555-1011 tomorrow. 415-555-9999 is my office.'
+    message1='Batmobile lost a wheel'
+    nameString='First Name : alis  Last Name : brithon'
+    dotAllString='First Name : alis \n Last Name : brithon'
+    subString='Agent Alice told Agent Carol that Agent Eve knew Agent Bob was a double agent.'
+
+    phoneNumberFinder(message)
+    allPhoneNumberFinder(message)
+    batFinder(message1)
+    RegularExpressions.nameFinder(nameString)
+    RegularExpressions.dotAllMatch(dotAllString)
+    RegularExpressions.nameSub(subString)
