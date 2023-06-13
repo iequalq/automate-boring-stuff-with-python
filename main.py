@@ -1,4 +1,5 @@
 # This is a sample Python script.
+import os
 
 import  ReadingandWritingFiles
 
@@ -15,4 +16,6 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
 
-    ReadingandWritingFiles.changeCurrentDir('/home')
+    #ReadingandWritingFiles.changeCurrentDir('/home')
+    #ReadingandWritingFiles.makeDir('/home/hassan/test1')
+    ReadingandWritingFiles.pathTypeCheck(os.getcwd())
