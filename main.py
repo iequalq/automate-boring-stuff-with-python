@@ -1,4 +1,7 @@
 # This is a sample Python script.
+import os
+
+import  ReadingandWritingFiles
 import phoneNumberAndEmailExtractor
 
 
@@ -39,6 +42,10 @@ if __name__ == '__main__':
 
     #emailAddres=phoneNumberAndEmailExtractor.emailAddrFinder(messageProject)
     #print(emailAddres)
+
+    #ReadingandWritingFiles.changeCurrentDir('/home')
+    #ReadingandWritingFiles.makeDir('/home/hassan/test1')
+    ReadingandWritingFiles.pathTypeCheck(os.getcwd())
 
     matches=phoneNumberAndEmailExtractor.phoneAndEmailFinder()
     #print(matches)
